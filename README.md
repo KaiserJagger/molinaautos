@@ -72,7 +72,7 @@ Bienvenido a **MolinaAutos**, un proyecto dedicado a la venta de vehículos.
    ```bash
    npm run dev
    ```
-Contribuciones
+### Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, sigue estos pasos:
 
@@ -93,7 +93,7 @@ git push origin feature/nueva-funcionalidad
 ```
 Envía un pull request para su revisión.
 
-Contacto
+### Contacto
 
 Si tienes preguntas, sugerencias o necesitas soporte, puedes contactarme a través de:
 
