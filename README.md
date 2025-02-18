@@ -14,24 +14,28 @@ Bienvenido a **MolinaAutos**, un proyecto dedicado a la venta de vehículos.
 
 ## Tecnologías Utilizadas
 
-Este proyecto fue desarrollado utilizando las siguientes tecnologías:
+### Frontend
 
-- **Frontend**: React, Bootstrap, HTML, CSS3
-- **Backend**: Node.js, Express
+- **Librerías y Frameworks**: React, Bootstrap
+- **Lenguajes**: HTML, CSS3, JavaScript
+
+### Backend
+
+- **Frameworks y Entorno**: Node.js, Express
 - **Base de Datos**: MongoDB
 
 ## Instalación
 
-Sigue estos pasos para configurar el proyecto localmente:
+### Instalación del Frontend
 
 1. **Clona el repositorio**:
    ```bash
    git clone https://github.com/KaiserJagger/molinaautos.git
    ```
 
-2. **Navega al directorio del proyecto**:
+2. **Navega al directorio del frontend**:
    ```bash
-   cd molinaautos
+   cd molinaautos/frontend
    ```
 
 3. **Instala las dependencias**:
@@ -39,15 +43,62 @@ Sigue estos pasos para configurar el proyecto localmente:
    npm install
    ```
 
-4. **Configura las variables de entorno**:
-   Crea un archivo `.env` en la raíz del proyecto y añade las siguientes variables:
+4. **Inicia el servidor de desarrollo**:
+   ```bash
+   npm start
+   ```
+
+### Instalación del Backend
+
+1. **Navega al directorio del backend**:
+   ```bash
+   cd molinaautos/backend
+   ```
+
+2. **Instala las dependencias**:
+   ```bash
+   npm install
+   ```
+
+3. **Configura las variables de entorno**:
+   Crea un archivo `.env` en la raíz del backend y añade las siguientes variables:
    ```env
    DATABASE_URL=tu_url_de_base_de_datos
    TOKEN_SECRET=clave_secreta_para_firmar_JWT
    SESSION_SECRET=secreto_de_la_sesion_de_express
    ```
 
-5. **Inicia el servidor de desarrollo**:
+4. **Inicia el servidor de desarrollo**:
    ```bash
    npm run dev
    ```
+Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, sigue estos pasos:
+
+Haz un fork del repositorio.
+
+Crea una nueva rama con tu mejora o corrección.
+```bash
+git checkout -b feature/nueva-funcionalidad
+```
+Realiza tus cambios y haz un commit.
+```bash
+git commit -m 'Añadir nueva funcionalidad'
+```
+
+Sube tus cambios
+```bash
+git push origin feature/nueva-funcionalidad
+```
+Envía un pull request para su revisión.
+
+Contacto
+
+Si tienes preguntas, sugerencias o necesitas soporte, puedes contactarme a través de:
+
+GitHub: github.com/KaiserJagger, github.com/JuanMondre
+
+Email: kaiserjager10@gmail.com - juanmondre37@gmail.com 
+
+
